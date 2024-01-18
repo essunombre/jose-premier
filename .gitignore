@@ -1,0 +1,7 @@
+node_modules
+index.js
+e2e/*
+!e2e/test
+screenshots
+cypress/videos
+cypress/videos

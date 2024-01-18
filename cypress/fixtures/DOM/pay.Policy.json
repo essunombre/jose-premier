@@ -1,0 +1,38 @@
+{
+    "externalPayment":{
+        "callCenterPay":{
+            "button": "Call Center Pay", 
+            "data":{
+                "ach": "ACH",
+                "creditCard": "Credit Card"
+            }
+        },
+        "splitPayment":{
+            "button": "Split Payment", 
+            "data":{
+                "creditCardCreditCard": "Credit Card/Credit Card",
+                "creditCardAch": "Credit Card/ACH",
+                "creditCardRequisition": "Credit Card/Requisition",
+                "achRequisition": "ACH/Requisition"
+            }
+        },
+        "requisition": "Requisition", 
+        "check": "Check"
+
+    },
+    "PayNowButtonOption": "Pay $",
+    "SendSMSButton": "Send payment URL SMS to ",
+    "SendEmailButton": "Send payment URL email to ",
+    "PayNowButton": "Pay now", 
+    "CopyURLButton": "Copy payment URL", 
+    
+    "PayDeferPaymentButton":  "Defer Payment",
+    "DeferPolicyButton":  "Submit",
+    "SubmitButton": "Submit",
+    "PayDeferPaymentButtonOption": "Defer Payment",
+    "PayExternalPaymentButtonOption": "External Payment",
+    "SubmitExternalButton": "div.text-center span",
+    "isExternalPaymentDone": "Successful change",
+    "PayButton": "Pay",
+    "PayWithCardStripe": "Pay with card"
+}

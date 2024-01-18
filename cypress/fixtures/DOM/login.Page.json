@@ -1,0 +1,20 @@
+{
+    "qaLink": "https://premier-quote-frontend-qa.azurewebsites.net/",
+    "devLink": "https://premier-quote-frontend-dev.azurewebsites.net/",
+    "LoginButton": "button[data-action-button-primary='true']",
+    "username": {
+        "input": "#username",
+        "data": {
+            "valid": "jalbancando@premier.pr",
+            "invalid": "perrielOrnitorrinco@premier.pr"
+        } 
+    },
+    "password": {
+        "input": "#password",
+        "data": {
+            "valid": "Premier1*",
+            "invalid": ""
+        }
+    },
+    "SubmitButton": "button[data-action-button-primary='true']"
+}

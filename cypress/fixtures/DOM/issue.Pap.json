@@ -1,0 +1,433 @@
+{
+    "user" :{
+        "developer" : {
+            "email" : "jalbancando@premier.pr", 
+            "password" : "Premier1*"
+        }, 
+        "admin" : {
+            "email" : "adjalbancando@premier.pr", 
+            "password" : "Premier1*"
+        }, 
+        "agent" : {
+            "email" : "ajalbancando@premier.pr", 
+            "password" : "Premier1*"
+        }, 
+        "dealer" : {
+            "email" : "djalbancando@premier.pr", 
+            "password" : "Premier1*"
+        }
+    },
+
+    "NewQuoteButton": "button[title='Go to Quotes']",
+    "agent": {
+        "select": "select#Agent\\.Id",
+        "data": {
+            "validDev": "JDev9 Agent",
+            "validQa": "JQa9 Agent",
+            "invalid": ""
+        } 
+    },
+    "dealer": {
+        "select": "select#Dealer\\.Id",
+        "data": {
+            "validDev": "JDev9 Dealer",
+            "validQa": "JQa9 Dealer",
+            "invalid": ""
+        } 
+    },
+    "companyName": {
+        "input": "input#Prospect\\.CompanyName",
+        "data" : {
+            "valid": "Obi One Kenobi",
+            "invalid": ""
+        }
+
+    },
+    "businessDescription": {
+        "input": "input#Prospect\\.BusinessDescription",
+        "data" : {
+            "valid": "Puros Yedis going to battle partnership",
+            "invalid": ""
+        }
+    },
+    "firstName": {
+        "input": "input#Prospect\\.Name\\.FirstName",
+        "data" : {
+            "valid": "SweepsDontUse",
+            "invalid": ""
+        }
+
+    },
+    "lastName": {
+        "input": "input#Prospect\\.Name\\.LastName",
+        "data" : {
+            "valid": "After",
+            "invalid": ""
+        }
+    },
+    "secondLastName": {
+        "input": "input#Prospect\\.Name\\.SecondLastName",
+        "data" : {
+            "valid": "122024",
+            "invalid": ""
+        }
+
+    },
+    "email": {
+        "input": "input#Prospect\\.Email",
+        "data" : {
+            "valid": "olafpekerman+dc@gmail.com",
+            "invalid": ""
+        }
+
+    },
+    "gender": {
+        "male": "input[name='Prospect.Gender'][value='1']",
+        "female": "input[name='Prospect.Gender'][value='2']"
+    },
+    "civilStatus": {
+        "select": "select#AdditionalDrivers\\.0\\.CivilStatus",
+        "data": {
+            "single": "Single",
+            "married": "Married",
+            "invalid": ""
+        } 
+    },
+    "licenseNumber": {
+        "input": "input#Prospect\\.LicenseNumber",
+        "data": {
+            "valid": "789456123",
+            "invalid": ""
+        } 
+    },
+    "postalAddress": {
+        "input": "input#Prospect\\.POBox",
+        "data": {
+            "valid": "Urb Las Nubes 59 Calle Via Olivos",
+            "invalid": ""
+        } 
+    },
+    "physicalAddress": {
+        "input": "input#Prospect\\.Address",
+        "data": {
+            "valid": "Urb Las Nubes 59 Calle Via Olivos CAGUAS",
+            "invalid": ""
+        } 
+    },
+    "zipCode": {
+        "input": "input#Prospect\\.ZipCode",
+        "data": {
+            "valid": "00727",
+            "invalid": "00000"
+        } 
+    },
+    "occupation": {
+        "select": "select#Prospect\\.Occupation\\.Id",
+        "data": {
+            "accountant": "ACCOUNTANT / FINANCES",
+            "computer": "COMPUTER RELATED (IS, MIS, DP, WWW)",
+            "consultant": "CONSULTANT", 
+            "doctor": "DOCTOR", 
+            "engineer": "ENGINEER", 
+            "other": "OTHER", 
+            "invalid" : ""
+        } 
+    },
+    "additionalDriverFirstName": {
+        "input": "input#AdditionalDrivers\\.0\\.Name\\.FirstName",
+        "data" : {
+            "valid": "Additional",
+            "invalid": ""
+        }
+
+    },
+    "additionalDriverLastName": {
+        "input": "input#AdditionalDrivers\\.0\\.Name\\.LastName",
+        "data" : {
+            "valid": "Driver",
+            "invalid": ""
+        }
+    },
+    "additionalDriverSecondLastName": {
+        "input": "input#AdditionalDrivers\\.0\\.Name\\.SecondLastName",
+        "data" : {
+            "valid": "AdditionalSecondL",
+            "invalid": ""
+        }
+
+    },
+    "additionalDriverEmail": {
+        "input": "input#AdditionalDrivers\\.0\\.Email",
+        "data" : {
+            "valid": "olafpekerman+additionalDriver@gmail.com",
+            "invalid": ""
+        }
+
+    },
+    "additionalDriverGender": {
+        "male": "input[name='AdditionalDrivers.0.Gender'][value='1']",
+        "female": "input[name='AdditionalDrivers.0.Gender'][value='2']"
+    },
+    "additionalDriverCivilStatus": {
+        "select": "select#AdditionalDrivers\\.0\\.CivilStatus",
+        "data": {
+            "single": "Single",
+            "married": "Married",
+            "invalid": ""
+        } 
+    },
+    "additionalDriverLicenseNumber": {
+        "input": "input##AdditionalDrivers\\.0\\.LicenseNumber",
+        "data": {
+            "valid": "88888888",
+            "invalid": ""
+        } 
+    },
+    "vehicleMake": {
+        "select": "select#Vehicle\\.Make\\.Id",
+        "data": {
+            "tesla": "TESLA",
+            "invalid" : ""
+        } 
+    },
+    "vehicleModel": {
+        "select": "select#Vehicle\\.Model\\.Id",
+        "data": {
+            "modely": "MODEL Y",
+            "invalid" : ""
+        } 
+    },
+    "vehicleYear": {
+        "input": "input#Vehicle\\.Year",
+        "data": {
+            "valid": 2024,
+            "invalid" : ""
+        } 
+    },
+    "vehicleCondition": {
+        "select": "select#Vehicle\\.VehicleCondition",
+        "data": {
+            "new": "New",
+            "used": "Used",
+            "invalid" : "Select Vehicle Condition"
+        } 
+    },
+    "vehicleActualValue": {
+        "input": "input[name='Vehicle.ActualValue']",
+        "data": {
+            "valid": 25000,
+            "invalid" : "jajaj"
+        } 
+    },
+    "vehicleCostNew": {
+        "input": "input[name='Vehicle.CostNew']",
+        "data": {
+            "valid": 8000,
+            "invalid" : "jajaj"
+        } 
+    },
+    "vehicleUse": {
+        "select": "select#Vehicle\\.VehicleUse",
+        "data": {
+            "leisure": "Leisure",
+            "lessThan": "Drive to work (less than 15 miles)",
+            "moreThan": "Drive to work (15 miles or more)",
+            "business": "Business",
+            "agricultural": "Agricultural",
+            "commercial": "Commercial",
+            "delivery": "Delivery",
+            "privatePassenger": "Private Passenger",
+            "service": "Service",
+            "invalid" : "Select Vehicle Use"
+        } 
+    },
+    "depreciation": {
+        "select": "select#Vehicle\\.EstimatedAnnualDepreciation",
+        "data": {
+            "fifteen": "15%",
+            "twenty": "20%",
+            "invalid" : "Select Estimated Yearly Depreciation"
+        } 
+    },
+    "term": {
+        "select": "select#Vehicle\\.Term",
+        "data": {
+            "twelve": "12 months",
+            "invalid" : "Select Policy Term"
+        } 
+    },
+    "stickerMonth": {
+        "select": "select#InspectionStickerExpireMonth",
+        "data": {
+            "september": "September",
+            "invalid" : "Select Inspection Sticker Expiration Month (Expiración de Marbete)"
+        } 
+    },
+    "stickerYear": {
+        "select": "select#InspectionStickerExpireYear",
+        "data": {
+            "twentytwo": "2022",
+            "twentythree": "2023",
+            "twentyfour": "2024",
+            "invalid" : "Select Inspection Sticker Expiration Year (Expiración de Marbete)"
+        } 
+    },
+    "stickerPrice": {
+        "ninetysix": "input[name='InspectionStickerPrice'][value='96.53']",
+        "hundredfourtyfour": "input[name='InspectionStickerPrice'][value='144.3']"
+    },
+    "license": {
+        "input": "input#LicenseNumber",
+        "data": {
+            "valid": 969696,
+            "invalid" : "jajaj"
+        } 
+    },
+    "phoneNumber": {
+        "input": "input[name='PhoneNumber']",
+        "data": {
+            "valid": 7873336851,
+            "ryan": 7875397445,
+            "invalid" : "jajaj"
+        } 
+    },
+    "plate": {
+        "input": "input#Plate",
+        "data": {
+            "valid": "abc-123",
+            "invalid" : ""
+        } 
+    },
+    "vin": {
+        "input": "input#Vin",
+        "data": {
+            "valid": "00000000000000000",
+            "invalid": ""
+        } 
+    },
+    "bank": {
+        "select": "select#Bank",
+        "data": {
+            "oriental": "ORIENTAL BANK",
+            "invalid": "Select Bank"
+        } 
+    },
+    "financeTerm": {
+        "select": "select#FinanceTerm",
+        "data": {
+            "twentyfour": "24 months",
+            "thirtysix": "36 months",
+            "fourtyeight": "48 months",
+            "sixty": "60 months",
+            "sixtysix": "66 months",
+            "seventytwo": "72 months",
+            "invalid": "Select Bank"
+        } 
+    },
+    "namedInsured":{
+        "select": "Prospect\\.NamedInsured",
+        "data":{
+            "coorporation":"Corporation",
+            "partnership":"Partnership",
+            "limitedLiability":"Limited Liability Co. (LLC)",
+            "individual":"Individual",
+            "other":"Other",
+            "invalid":"Select Named Insured (Type of business)"
+        }
+    },
+    "sizeClass": {
+        "select": "select#Vehicle\\.SizeClass",
+        "data" : {
+            "light": "Light (0 - 10,000 lbs)",
+            "medium": "Medium (10,001 - 20,000 lbs)", 
+            "heavy": "Heavy (20,001 - 45,000 lbs)", 
+            "extraHeavy":"Extra-Heavy (more than 45,000 lbs)",
+            "invalid": "Select Size Class"
+        }
+    },
+    "secondaryClassification": {
+        "select": "select#Vehicle\\.SecondaryClassification",
+        "data": {
+            "contractors": "Contractors",
+            "dump": "Dump and Transir Mix",
+            "farmers": "Farmers",
+            "foodDelivery": "Food Delivery",
+            "specialized": "Specialized Delivery",
+            "trucks": "Trucks",
+            "waste": "Waste Disposal",
+            "others": "Others",
+            "invalid": "Select Secondary Classification"
+        }
+    },
+    "vehicleSubClass": {
+        "select": "select#Vehicle\\.SubClass",
+        "data": {
+            "buildingCommercial": "Building Commercial",
+            "buildingPrivate": "Building Private Dwellings",
+            "repair": "Electrical, Plumbing, Masonry, Plastering and Other Repair or Service",
+            "excavating": "Excavating",
+            "streetAndRoad": "Street and Road",
+            "invalid": "Select Vehicle Sub Class",
+            "mining": "Mining",
+            "quarrying": "Quarrying",
+            "sandAndGravel": "Sand and Gravel",
+            "corp": "Individually Owned or Family Corp.",
+            "livestockHauling": "Livestock Hauling",
+            "canneries": "Canneries and Packing Plants",
+            "fish": "Fish and Seafood",
+            "frozenFood": "Frozen Food",
+            "fruit": "Fruit and Vegetable",
+            "poultry": "Meat or Poultry",
+            "armoredCars": "Armored Cars",
+            "film": "Film Delivery",
+            "magazines": "Magazines or Newspapers",
+            "mail": "Mail and Parcel Post",
+            "carriage": "Carriers Engaged in both Private Carriage and Transporting Goods",
+            "commonCarriers": "Common Carriers",
+            "contractCarriers": "Contract Carriers",
+            "haulingChemicals": "Contract Carriers Hauling Chemicals",
+            "ironAndSteel": "Contract Carriers Hauling Iron and Steel",
+            "exemptCarriers": "Exempt Carriers",
+            "exemptCarriersHaulingLivestock": "Exempt Carriers Hauling Livestock",
+            "towTrucks": "Tow Trucks-hire",
+            "autoDismantlers": "Auto Dismantlers",
+            "buildingWrecklingOperators": "Building Wreckling Operators",
+            "garbage": "Garbage",
+            "junkDealers": "Junk Dealers",
+            "loggingAndLumbering": "Logging and Lumbering",
+            "allOther": "All Other"            
+        }
+    },
+    "operatorExperience": {
+        "select": "select#Vehicle\\.OperatorExperience",
+        "data": {
+            "allOther": "All Other",
+            "lessThan": "No operator licensed less than five years",
+            "notOwnerOrPrincipalOperator": "Operator licensed less than five years not owner or principal operator",
+            "ownerOrPrincipalOperator": "Owner or principal operator licensed less than five years",
+            "invalid": "Select Operator Experience"
+        }
+    },
+    "passengerUse": {
+        "select": "select#Vehicle\\.PassengerUse",
+        "data": {
+            "notWorkSchool" : "Not Driven To Work Or School", 
+            "lessFifteen": "To Or From Work Less Than 15 Miles",
+            "moreFifteen": "To Or From Work 15 Or More Miles",
+            "invalid": "Select Passenger Use"
+        }
+    },
+    "isQuoteCreated": "Quote Created",
+    "isPolicyCreated": "Policy was issued",
+    "NextButton": "Next",
+    "GetQuoteButton": "Get quote",
+    "SubmitButton": "Submit",
+    "IssueButton": "Issue",
+    "IssuePolicyButton": "Issue policy",
+    "ProceedButton": "Proceed",
+    "isSignedIn": ".mantine-emotion-cache-Text-root",
+    "DoubleInterestButton": "div:nth-of-type(1) > button.disabled\\:cursor-not-allowed",
+    "LiabilityButton": "div:nth-of-type(2) > button.disabled\\:cursor-not-allowed",
+    "FullCoverButton": "div:nth-of-type(3) > button.disabled\\:cursor-not-allowed",
+    "DoublePlusLiabilityButton": "div:nth-of-type(4) > button.disabled\\:cursor-not-allowed"
+}

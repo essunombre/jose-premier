@@ -1,0 +1,18 @@
+{
+    "SearchButton": "Search",
+    "SearchBarInput": "#search", 
+    "FilterBySelect":{
+        "select": "#filter-by",
+        "data":{
+            "email": "Email",
+            "quoteNumber":"Quote Number",
+            "policyNumber":"Policy Number",
+            "renovationDate":"Renovation Date",
+            "vin":"VIN",
+            "make":"Make",
+            "model":"Model",
+            "name":"Name",
+            "clear":"Clear"
+        }
+    }
+}
